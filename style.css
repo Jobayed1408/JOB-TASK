@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* COMMON Class */
@@ -40,7 +40,7 @@ body {
 
 .hamburger {
     display: none;
-    font-size: 28px;
+    font-size: 36px;
     cursor: pointer;
 }
 
@@ -1308,8 +1308,8 @@ body {
     background: white;
     border: 2px solid #e5e7eb;
     border-radius: 14px;
-    padding: 24px;
     transition: all 0.3s ease;
+    padding: 20px;
 }
 
 .testimonial-card:hover {
@@ -1961,10 +1961,10 @@ footer {
         gap: 20px;
     }
 
-    .featured-card,
+    /* .featured-card,
     .testimonial-card {
-        padding: 20px;
-    }
+        padding: 20;
+    } */
 
     .person-details h3 {
         font-size: 15px;
