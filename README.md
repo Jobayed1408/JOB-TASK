@@ -3,7 +3,7 @@
 A high-fidelity landing page section built from a Figma design. This project focuses on design accuracy, responsive layouts, and clean, maintainable vanilla code.
 
 ## 🚀 Live Demo
-**[Insert your Netlify/Vercel Link Here]**
+**https://job-task-project-jobayed.netlify.app/**
 
 ## 📋 Project Overview
 This task involved translating a complex Figma UI into a functional, responsive web component using only core web technologies. The layout features a client logo showcase and a detailed service selection section with custom-styled interactive elements.
