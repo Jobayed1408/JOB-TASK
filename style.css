@@ -1007,7 +1007,7 @@ body {
     transform: translate(-50%, -50%);
     width: 64px;
     height: 64px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgb(137 134 134 / 84%);
     border-radius: 50%;
     display: flex;
     align-items: center;
