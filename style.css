@@ -1035,15 +1035,13 @@ body {
 }
 
 .card-overlay {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 90px;
     left: 0;
     right: 0;
-    height: 140px;
-    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.85) 100%);
+    /* background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.85) 100%); */
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     padding: 16px;
     z-index: 5;
 }
@@ -1176,9 +1174,9 @@ body {
 }
 
 .person-info {
-    display: flex;
     align-items: center;
     gap: 12px;
+    display: flex;
     flex: 1;
 }
 
@@ -1302,6 +1300,10 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
+}
+
+.story-testimonial-card {
+    border-radius: 14px;
 }
 
 .testimonial-card {
@@ -1537,7 +1539,7 @@ footer {
     color: #1f2937;
     border: 2px solid #e5e7eb;
     padding: 12px 24px;
-    border-radius: 8px;
+    border-radius: 25px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -1554,7 +1556,7 @@ footer {
     color: white;
     border: none;
     padding: 12px 28px;
-    border-radius: 8px;
+    border-radius: 25px;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
