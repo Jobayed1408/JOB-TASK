@@ -318,7 +318,7 @@ body {
 }
 
 
-/* CLIENTS SECTION */
+CLIENTS SECTION
 .clients-section {
     display: flex;
     align-items: center;
@@ -911,7 +911,6 @@ body {
     scroll-behavior: smooth;
     padding: 10px 0;
     scroll-padding: 0 40px;
-    /* Hide scrollbar */
     scrollbar-width: none;
 }
 
@@ -965,6 +964,7 @@ body {
 }
 
 .card-image {
+    border-radius: 15px;
     position: relative;
     display: flex;
     align-items: center;
@@ -1176,7 +1176,6 @@ body {
 .person-info {
     align-items: center;
     gap: 12px;
-    display: flex;
     flex: 1;
 }
 
